@@ -13,7 +13,6 @@ import java.io.InputStream;
 import java.util.List;
 
 public class MyApp2 {
-
     public static void main(String[] args) throws IOException {
 
         //获取SqlSession对象，从SqlSessionFactory中获取SqlSession
