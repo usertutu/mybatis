@@ -18,4 +18,9 @@
             <!--要执行的 sql 语句-->
             select id,name,email,age from student
         </select>
+
+        <insert id="insertStudent">
+        insert into student values (#{id},#{name},#{email},#{age})
+        </insert>
+
 </mapper>
